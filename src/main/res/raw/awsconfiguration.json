@@ -1,0 +1,22 @@
+{
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "REPLACE WITH YOUR VALUE",
+        "Region": "REPLACE WITH YOUR VALUE"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "AppClientSecret": "REPLACE WITH YOUR VALUE",
+      "AppClientId": "REPLACE WITH YOUR VALUE",
+      "PoolId": "REPLACE WITH YOUR VALUE",
+      "Region": "REPLACE WITH YOUR VALUE"
+    }
+  }
+}
